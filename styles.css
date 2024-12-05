@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: darkblue;
+}
+
+p {
+    text-align: center;
+    color: darkgreen;
+}
+
+ul {
+    list-style-type: none; /* Removes bullet points from the list */
+    padding: 0;
+}
+
+li {
+    padding: 5px;
+    margin-top: 5px;
+    background-color: lightgray;
+    text-align: center;
+}
+
+a {
+    text-decoration: none; /* Removes underline from links */
+    color: darkred;
+}
+
+a:hover {
+    color: black;
+}
+
+/* Specific styles for joke pages */
+.joke-page h1 {
+    color: darkred;
+}
+
+/* Different background colors for each joke page */
+#joke1 {
+    background-color: lightblue;
+}
+
+#joke2 {
+    background-color: lightgreen;
+}
+
+#joke3 {
+    background-color: lightyellow;
+}
+
+/* Image styling */
+img {
+    display: block;
+    margin: auto; /* Centers the image horizontally */
+    max-width: 90%; /* Limits image width, maintaining aspect ratio */
+}
